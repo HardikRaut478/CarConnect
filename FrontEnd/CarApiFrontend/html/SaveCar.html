@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Car</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <form id="carDataForm">
+        <div class="mb-3">
+            <label for="model" class="form-label">Model:</label>
+            <input type="text" class="form-control" id="model" name="model" required>
+        </div>
+    
+        <div class="mb-3">
+            <label for="generation" class="form-label">Generation:</label>
+            <input type="text" class="form-control" id="generation" name="generation" required>
+        </div>
+    
+        <div class="mb-3">
+            <label for="engine" class="form-label">Engine:</label>
+            <input type="text" class="form-control" id="engine" name="engine" required>
+        </div>
+    
+        <div class="mb-3">
+            <label for="start_of_production" class="form-label">Start of Production:</label>
+            <input type="number" class="form-control" id="start_of_production" name="start_of_production" required>
+        </div>
+    
+        <div class="mb-3">
+            <label for="powertrain_architecture" class="form-label">Powertrain Architecture:</label>
+            <input type="text" class="form-control" id="powertrain_architecture" name="powertrain_architecture" required>
+        </div>
+    
+        <!-- Add more fields as needed -->
+    
+        <button type="button" class="btn btn-primary" onclick="postData()">Submit</button>
+    </form>
+</body>
+<script src="../js/saveData.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>S
+</html>

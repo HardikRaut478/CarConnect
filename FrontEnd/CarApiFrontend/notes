@@ -1,0 +1,10 @@
+//display All;
+	@GetMapping(value = "/")
+//save
+	@PostMapping(value = "/save")
+//find by id
+	@GetMapping(value = "/{id}")
+//update
+	@PutMapping(value = "/update")
+//find by model
+	@PostMapping(value ="/model")
